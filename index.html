@@ -1,7 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Word Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <h1>N-Word Counter</h1>
+        <p>Text från röstigenkänning: <span id="result-text">Ingen text än</span></p>
+        <p>Du har sagt frasen: <span id="count">0</span> gånger.</p>
+        <button id="start-btn">Starta Röstigenkänning</button>
+        <p id="status" class="status-off">Inaktiv</p>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
